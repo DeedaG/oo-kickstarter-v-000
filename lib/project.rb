@@ -11,8 +11,5 @@ class Project
     backer.project = self
   end
 
-    def backers
-      @backers
-    end
 
 end
