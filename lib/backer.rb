@@ -10,7 +10,11 @@ attr_accessor :backed_projects
 
   def add_projects
     @backed_projects << projects
+    
   end
 
+def backed_projects
+  @backed_projects
+end
 
 end
