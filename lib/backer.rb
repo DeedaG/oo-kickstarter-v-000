@@ -1,4 +1,4 @@
-class Backers
+class Backer
 
 attr_accessor :backed_projects, :name
 
@@ -11,7 +11,7 @@ attr_accessor :backed_projects, :name
 
   def add_projects
     @backed_projects << projects
-    project.backers = self
+    project.backer = self
   end
 
 
