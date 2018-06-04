@@ -9,6 +9,11 @@ attr_accessor :backed_projects, :name
 
   end
 
+  def back_project(Project)
+
+  end
+
+
   def add_projects
     @backed_projects << projects
     project.backer = self
