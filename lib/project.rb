@@ -11,14 +11,8 @@ class Project
     backer.project = self
   end
 
-  def add_song(song)
-      @songs << song
-      song.artist = self
-      @@artist_song_count += 1
-    end
-
-    def songs
-      @songs
+    def backers
+      @backers
     end
 
 end
