@@ -8,6 +8,7 @@ class Project
 
   def add_backers(backers)
     @backers << backers
+    backer.project = self
   end
 
   def add_song(song)
